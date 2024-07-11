@@ -5,7 +5,7 @@ def dice_simulator():
     rolls = []
 
     for _ in range(num_dice):
-        roll = random.randint(1, 6)
+        roll = random.randint(1, 7)
         rolls.append(roll)
 
     print("Rolls:", rolls)
